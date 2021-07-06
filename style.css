@@ -62,7 +62,7 @@ a{
 }
 .head_right img{
     height: auto;
-    width: 70%%;
+    width: 70%;
     display: block;
     margin: 20px auto;
 }
@@ -75,7 +75,7 @@ a{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 2px solid #dedede;
+    border-top: 5px solid #dedede;
 }
 .about_left img{
     margin: 35px auto;
@@ -101,4 +101,63 @@ a{
 .about_right button{
     cursor: pointer;
 }
+
+/*recipies*/
+#recipies{
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: wheat;
+    border-top: 5px solid #dedede;
+}
+.recipies_title{
+    display: block;
+}
+.recipies_title h1{
+    text-align: center;
+    font-size: 62px;
+    margin: 10px;
+    color: black;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+.recipies_title p{
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 180px;
+    color: brown;
+}
+.recipies_item{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+
+}
+.items{
+    padding: 5px;
+    margin: 12px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: all 1s ease;
+}
+.items img{
+    height: auto;
+    width: 380px;
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+.items h2{
+    margin: 5px 15px;
+    font-size: 24px;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+.items p {
+    text-align: justify;
+    padding: 5px 15px;
+}
+
+
 
