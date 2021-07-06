@@ -131,7 +131,6 @@ a{
     display: flex;
     justify-content: center;
     margin: 20px auto;
-
 }
 .items{
     padding: 5px;
@@ -158,6 +157,57 @@ a{
     text-align: justify;
     padding: 5px 15px;
 }
+/*feedback*/
+#feedback{
+    margin: 0 auto;
+    padding: 30px;
+    display: block;
+    text-align: center;
+    border-top: 5px solid #dedede;
+    background-color: aqua;
+}
 
-
+#feedback h1{
+    font-size: 62px;
+    margin: 10px;
+    color: black;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+#feedback label{
+    color: brown;
+    margin: 5px 10px;
+    font-size: 22px;
+    display: block;
+}
+#fname{
+    margin: 0 auto;
+    height: 40px;
+    display: block;
+    padding: 10px;
+    width: 580px;
+}
+#email{
+    margin: 0 auto;
+    height: 40px;
+    display: block;
+    padding: 10px;
+    width: 580px;
+}
+#feedback_w{
+    margin: 0 auto;
+    height: 100px;
+    display: block;
+    padding: 10px;
+    width: 580px;
+}
+#feed_btn{
+    background-image: linear-gradient(to bottom, #5c6d35, #536234, #4b5733, #434c31, #3b412f);
+    color: #fff;
+    font-weight: bolder;
+    font-size:16px ;
+    width: 100px;
+    margin: 10px;
+    padding: 10px 20px;
+}
 
