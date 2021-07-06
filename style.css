@@ -138,16 +138,18 @@ a{
     border: 1px solid #000000;
     border-radius: 15px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    transition: all 1s ease;
+
 }
 .items img{
     height: auto;
     width: 380px;
     padding: 5px;
     margin: 0px 10px;
+    border-radius: 25px;
 }
 
 .items h2{
+    color: #3b0d0d;
     margin: 5px 15px;
     font-size: 24px;
     text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
@@ -165,6 +167,7 @@ a{
     text-align: center;
     border-top: 5px solid #dedede;
     background-color: aqua;
+    border-bottom: 5px solid #dedede;
 }
 
 #feedback h1{
@@ -209,5 +212,49 @@ a{
     width: 100px;
     margin: 10px;
     padding: 10px 20px;
+}
+
+/*followers*/
+#followers{
+    display: flex;
+    margin: 40px auto;
+}
+.follow{
+    height: 260px;
+    text-align: center;
+    display: block;
+    width: 32%;
+    margin: 15px;
+    border: 1px solid #000000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.follow img{
+    margin: 10px;
+    height: auto;
+    width: 70px;
+}
+
+/*footer*/
+#foot{
+    border-top: 5px solid #dedede;
+
+}
+.foot_container{
+    padding: 10px;
+    margin:35px 20px;
+    background-color: #1d1919;
+    padding: ;
+    text-align: center;
+    margin: 0 auto;
+}
+.foot_container h3{
+    color: coral;
+}
+.foot_container span{
+    color: #F4D03F;
+}
+.foot_container p{
+    font-size: 14px;
+    color: brown;
 }
 
